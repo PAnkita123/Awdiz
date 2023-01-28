@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/74285856ad.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            height: 100px;
+            width: 100%;
+            border: 2px;
+
+        }
+
+        #first-head {
+            height: 30px;
+            width: 100%;
+            background-color: #c8043c;
+            border: 2px;
+            color: white;
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 8px;
+
+
+        }
+
+        #second-head {
+            height: 70px;
+            width: 100%;
+            background-color: #e80440;
+            border: 2px;
+            margin: none;
+
+
+
+        }
+
+
+        #list {
+            text-align: right;
+            display: block;
+            list-style-type: none;
+            position: relative;
+            bottom: 10px;
+
+        }
+
+        nav>ul>li {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            float: left;
+            font-size: small;
+            padding-top: 0.20px;
+        }
+
+        nav>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        nav>ul>li {
+            float: right
+        }
+
+        #input {
+            float: left;
+            margin-left: 300px;
+            height: 40px;
+            width: 40%;
+            position: relative;
+            bottom: 30px;
+            font-size: small;
+            border: none;
+        }
+
+        button {
+            height: 40px;
+            position: relative;
+            bottom: 30px;
+            width: 7%;
+            background-color: black;
+            color: white;
+            border: none;
+
+
+        }
+
+        #right{ display:flex;
+        position: relative;
+        left:80%;
+        bottom:65px;
+        width: 10% ;
+        height: 40px;
+        justify-content: space-between;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-size: small;
+        
+
+
+    }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="first-head">
+            <h3 style="padding-left:20px; margin-left: 5%;">Brand Waali Quality, Bazaar Waali Deal!</h3>
+            <nav>
+                <ul id="list">
+                    <li> Download App</li>
+                    <li>Sell On Snapdeal</li>
+                    <li>Help center</li>
+                    <li>Gift cards </li>
+                    <li>impact@snapdeal</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="second-head">
+            <div style="width:30%; margin-left: 6%;">
+                <img src="./SnapDeal_logo_logotype.png" height="40px" width="130px" />
+            </div>
+            <div>
+                <input id="input" type="search" class="serachbox" placeholder="Search products & brands"
+                    name="keyword" />
+
+                <button><i class="fa-solid fa-magnifying-glass"></i>&nbsp;Search</button>
+            <div id="right">
+                <div> Cart </i><i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+
+                <div>Sign In <i class="fa-solid fa-user"></i>
+
+                </div>
+
+            </div>     
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+</body>
+
+</html>

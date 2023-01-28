@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/74285856ad.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button {
+            height: 35px;
+            position: relative;
+            left: 900px;
+            bottom: 85px;
+            width: 15%;
+            background-color: white;
+            color: #2874f0;
+            border: none;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #navbar {
+            display: flex;
+            height: 70px;
+            width: 100%;
+            border: none;
+            background-color: #2874f0;
+
+        }
+
+        #image {
+            height: 70px;
+            width: 100px;
+            display: flex;
+            margin-left: 120px;
+        }
+
+        #input {
+            display: flex;
+            height: 35px;
+            width: 320%;
+            margin-left: 5%;
+            position: relative;
+            left: 100%;
+            bottom: 50px;
+            border: none;
+
+
+        }
+
+        #searchbar {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            background-color: azure;
+            color: azure;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            margin-left: 3%;
+            font-size: 14px;
+            margin: 20px;
+            padding: 50px;
+        }
+
+        #inin {
+            padding: 20px;
+            border-radius: 2px 0 0 2px;
+            border: 0;
+            outline: 0 none;
+            font-size: 14px;
+            height: 36px;
+            width: 100%;
+            background-color: white;
+
+        }
+
+        #midbar {
+            display: flex;
+            width: 400px;
+            justify-content: space-around;
+            font-weight: 500;
+            border: none;
+            position: relative;
+            float: right;
+            color: white;
+            bottom: 45px;
+            justify-content: space-around;
+            font-weight: bold;
+            font-family: Roboto, arial, sans-serif;
+            right: 40px;
+
+        }
+
+        #log {
+            height: 35px;
+            width: 100px;
+            border: none;
+            background-color: white;
+            color: #2874f0;
+            font-weight: bold;
+            position: relative;
+            right: 150px;
+            bottom: 6px;
+
+
+        }
+
+        #select {
+            border: none;
+            background-color: #2874f0;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <diV id="navbar">
+        <diV>
+            <div><img id="image" src="./explore.jpg" /></div>
+            <div>
+                <div class="searchbar">
+                    <input id="input" type="search" class="serachbox" placeholder="Search for products, brands and more"
+                        name="keyword" />
+                    <button id="button"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+        </diV>
+
+    </diV>
+    <div id="midbar">
+        <button id="log">Login</button>
+        <div>Become a seller</div>
+        <div><select id="select">
+                <option>More</option>
+            </select></div>&nbsp;&nbsp;
+        <div><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;cart
+            
+        </div>
+    </div>
+    </diV>
+</body>
+
+</html>

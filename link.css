@@ -1,0 +1,22 @@
+
+
+  #main{height: 100PX;
+    width: 50%;
+    border: 2px;
+    background-color: chartreuse;
+    
+  }
+  .class{ 
+    height: 50PX;
+    width: 70%;
+    border: 2px;
+    border-style: double;
+    background-color: bisque;
+    padding-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+
+  }
+
+    
