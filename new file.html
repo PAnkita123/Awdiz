@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden Signup Page</title>
+    <style>
+        #form {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            left: 600px;
+            margin-top: 200px;
+            width: 280px;
+            height: 200px;
+            bottom:100px;
+        }
+
+        #plan{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            left: 600px;
+            margin-top: 200px;
+            width: 280px;
+            height: 200px;
+            bottom:100px;
+            top:1000px;
+        }
+
+        #image {
+            position: relative;
+            left: 70px;
+        }
+
+        #email-form{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            left: 600px;
+            margin-top: 800px;
+            width: 280px;
+            height: 200px;
+            
+        }
+
+        #image {
+            position: relative;
+            left: 70px;
+        }
+
+        #button {
+            height: 40px;
+            width: 280px;
+            background-color: #4169E1;
+            color: white;
+            border: none;
+            font-size: small;
+
+
+        }
+
+        :hover>fieldset {
+            color: blueviolet;
+            color: blueviolet;
+        }
+
+        #input-1 {
+            border: none;
+            outline: none;
+        }
+
+        #input-2 {
+            border: none;
+            outline: none;
+        }
+        #input-3{
+            border: none;
+            outline: none;
+            width:30%;
+            display:flex;
+        }
+
+        #input-4{
+            border: none;
+            outline: none;
+            width:70%;
+            display:flex;
+        }
+
+        #field1{
+            width:30%;
+            display:flex;
+        }
+
+        #field2{
+            width:48%;
+            display:flex;
+            position:relative;
+            left:120px;
+            bottom:55px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <img id="image" src="./aden.png" alt="eden.png" />
+        <h3>Welcome! First things first...</h3>
+        <small>You can always change them later.</small>
+        <form>
+
+            <label>First name</label><br />
+            <fieldset>
+                <legend><small>Steve Jobs</small></legend><input id="input-1" type="name">
+            </fieldset><br />
+            <label>Surname</label><br />
+            <fieldset>
+                <legend><small>Steve</small></legend><input id="input-2" type="name">
+            </fieldset><br />
+            <button id="button">Create Workspace</button>
+        </form>
+    </div>
+
+    <div id="email-form">
+        <img id="image" src="./aden.png" alt="eden.png" />
+        <h3>Let's setup home for all you work.</h3>
+        <small>you can always create a another workspace later</small>
+        <form>
+            
+                <label>Workspace name</label><br/>
+                <fieldset><legend><small>Eden</small></legend><input id="input-1"type="email"></fieldset><br/>
+                <label>Workspace URL(Optional)</label><br/>
+                <fieldset id="field1"><legend ><small>www.eden.com</small></legend><input id="input-3"type="email"width="30%"></fieldset>
+                <fieldset id="field2"><legend><small>example</small></legend><input id="input-4"type="email" width="70%"></fieldset>
+                
+                <button id ="button">Create Workspace</button>
+
+          </form>   
+          
+        
+
+
+        
+</body>
+
+</html>
