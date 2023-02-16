@@ -75,3 +75,8 @@ case 'grapes':console.log('grapes will be available tomorrow.');
 break;
 default: console.log(`sorry we are out of ${expr}.`);
 }
+
+let food_price= 500;
+let taxPercent=10;
+if(food_price=== 500){taxPercent=10;}
+console.log(taxPercent);
