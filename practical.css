@@ -1,0 +1,19 @@
+/* button{
+    height:50px;
+    width:100px;
+    outline:none;
+} */
+
+#displayTodos{
+    height:200px;
+    width:70%;
+    border:1px solid black;
+    display: flex;
+    
+}
+
+/* #row{display: flex
+    
+
+} */
+

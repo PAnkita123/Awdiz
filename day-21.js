@@ -1,23 +1,3 @@
-// Q 1 Print the number from 20-40, which are even;
-// for (var i = 20; i<=40; i++)
-// if (i%2===0){console.log(i)}
-
-// Q2 Q 1 Print the count of number from 20-40, which are even;
-// var count=0;
-// for (var i=20; i<=40; i++)
-// if (i%2===0){count++;}
-// console.log(count)
-
-// Q 1 Print the number from 20-40, which are odd;
-// for (var i = 20; i<=40; i++)
-// if (i%2!=0){console.log(i)}
-
-// Q Print count of the number from 147-254, which are divisible by 3 and odd number.
-var count=0;
-for(var i=147; i<=254; i++)
-if (i%3==0 && i%2!=0 ){count++;}
-console.log(count)
-
 // Q. Find count of number 45 from given Array
 // {12,13,45,67,43,45,76,89,54,23,7,8797,243,23234}
 
@@ -64,3 +44,51 @@ for(var i=0; i<number.length-2;i++) {
         
     }
 }
+
+
+
+
+// Q Find addition of every second number from 57689 - 346578
+
+// var add=0;
+// for (var i=57689+1; i<346578; i+=2)
+// {add=add+i}
+
+// console.log(add, "add here")
+
+// Q Find addition of every 1st number from 1 to 10
+
+// var add=0;
+// for(var i=1; i<=10; i+=1)
+// {add=add+i}
+
+// console.log(add, "add here")
+
+// Q Find addition of every 3rd number from 1 to 10
+
+// var add=0;
+// for(var i=0; i<=10; i+=3)
+// {add=add+i}
+
+// console.log(add, "add here")
+
+// let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; 
+// let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
+// var sum=0
+// for([arr_1]+[arr_2]){
+// console.log(add)}
+//  nb  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
